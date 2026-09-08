@@ -39,20 +39,21 @@ triage-mvp/
 │   ├── llm.py
 │   ├── main.py
 │   └── models.py
-├── .env
 ├── .env.example
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
-└── triage.db
+└── test_llm.py
 ```
+
+Файлы `.env` и `triage.db` создаются локально и не добавляются в Git.
 
 ## Установка
 
 Клонировать репозиторий:
 
 ```bash
-git clone <ССЫЛКА_НА_GITHUB>
+git clone https://github.com/lotusrussia-commits/triage-mvp.git
 cd triage-mvp
 ```
 
